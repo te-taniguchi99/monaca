@@ -1,0 +1,11 @@
+{
+  // vite.config.ts自体をNode.js上で解釈させるための設定
+  "compilerOptions": {
+    "composite": true,
+    "skipLibCheck": true,
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["vite.config.ts"]
+}
